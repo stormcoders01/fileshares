@@ -100,16 +100,39 @@ color: white;
 
 
 /* section one */
+
+.centercontent{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 /* heading */
 
 .heading{
+    width: 70%;
+
+
+    /* border-style: solid; */
+
     height:750px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 40px;
+    margin:20px;
     
     .head{
         margin-top: 10px;
@@ -140,7 +163,7 @@ color: white;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    width: 20%;
+    
     height: 50px;
     padding: 10px;
     border-radius: 25px;
@@ -149,12 +172,12 @@ color: white;
     border-width: 1px;
     
     .hire,.port{
-        
+        width: 100%;
         border: 2px solid black;
         border-radius:25px ;
         padding: 15px;
         text-align: center;
-        width: 50%;
+        
         margin: 8px 8px;
     
 
@@ -167,54 +190,106 @@ color: white;
 
 }
 
-/* heading end */
-/* section one body */
+.quotes_clintes{
+    /* border-style: solid; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:50px;
+}
+.quotes{
+    
+    
+    padding: 10px;
+    font-family: Poppins;
+    color: #555555;
+    font-size: 1.3em;
 
-.centercontent{
-    border-style: solid;
 
+order:0;
+}
+
+.socialmedia{
+    order:2;
 
 }
 
 
 
+/* skils  */
+.skils_socialmedia{
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top:100px;
 
+    table{
+        /* border-style: solid; */
+        width: 550px;
+        text-align: center;
+        border-spacing: 15px;
+        font-family: Anybody;
+        font-weight: 600;
 
+        
+        td{
+            border-style:solid;
+            border-radius: 25px;
+            padding: 16px;
+            
+        
 
+        }
+         
+        tr .dum{
+            border-style: none;
+            
+        }
 
+        tr .pyauto,.ml{
+            background-color: #FE4619;
+            color: white;
+        }
+    
+        tr .webd,.dash,.secure{
+            background-color: #141414dc;
+            color: white;
+        }
 
-/* section one body */
-
-/* quotes */
-.centercontent .quotes{
-    font-family:Poppins;
-    order: 0;
-    border-style: solid;
-
-}
-
-/* quotes end */
-
+    }
+/* skils  */
 /* social media */
 .socialmedia{
-    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 80px;
+    column-gap: 15px;
+    .socialmedia-follow{
+        font-size: 1em;
+    font-family: Poppins;
+    color: #555555;
+    padding: 10px;
 
+
+
+
+    }
+    i{
+        margin: 8px 16px;
+        font-size: 2em;
+    }
+    }
+    
 }
-
-
 
 /* social media */
 
-/* portfolio-hireme */
-
-
-/* portfolio-hireme end */
 
 
 
 
 
-
-/* section one end */
-
-
+}
