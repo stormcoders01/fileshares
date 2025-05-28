@@ -354,12 +354,12 @@ order:0;
 /*---------------------------------------------------------------------------- */
 
 
-
+/* section Three  */
 /* section three */
 /* skill sets */
 .skillsets{
-    border: 1px solid black;
-    height: 850px;
+    /* border: 1px solid black; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     row-gap: 200px;
@@ -393,6 +393,7 @@ order:0;
 display: flex;
 justify-content: space-around;
 flex-wrap:wrap;
+gap: 20px;
 
 /* border: 1px solid black; */
 height: 25%;
@@ -472,7 +473,7 @@ img{
     .inr_percentage{
     width: 30%;
     border: 1px solid black;
-    height: 85%;
+    height: 95%;
     background-color: #FC451C;
     border-top-right-radius: 5px ;
     border-bottom-right-radius: 5px ;
